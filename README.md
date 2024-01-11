@@ -22,5 +22,6 @@ There are also some general specification for this project such as:
 - 1 list without a relation list
 
 The data structure that i used contains an M to N relations as follows:
-![image](https://github.com/EkmalRey/ConsultationForum/assets/10165857/103ce005-1dc9-4f2e-98d8-512083e0c8fc)
+![MLL](https://github.com/EkmalRey/ConsultationForum/assets/10165857/6c223336-7660-4220-8355-fc74b63e7658)
+
 
