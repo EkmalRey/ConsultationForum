@@ -35,14 +35,6 @@ The data structure that i used contains an M to N relations as follows:
 ![MLL](https://github.com/EkmalRey/ConsultationForum/assets/10165857/6c223336-7660-4220-8355-fc74b63e7658)
 
 ## Building and Running
-
-### Quick Build (Windows)
-Run the multi-platform build script:
-```batch
-build.bat
-```
-This will create executables for Windows, Linux, and macOS in the `releases/` folder.
-
 ### Manual Build
 To build manually for your current platform:
 
