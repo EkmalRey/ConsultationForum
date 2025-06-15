@@ -54,7 +54,7 @@ g++ -I include src/*.cpp -o ConsultationForum -std=c++11
 3. Run the executable
 
 ### GitHub Releases
-Pre-built binaries for Windows, Linux, and macOS are available in the [Releases](../../releases) section.
+Pre-built binaries for Windows, and Linux are available in the [Releases](../../releases) section.
 
 ## Screenshots:
 ![image](https://github.com/EkmalRey/ConsultationForum/assets/10165857/923e0344-6aad-422f-9546-5a925cfbd4c9)
