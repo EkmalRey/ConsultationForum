@@ -2,6 +2,16 @@
 A CLI Program For My Final Project Of The Course Data Structure
 Made entirely from scratch with C++
 
+## Project Structure
+```
+ConsultationForum/
+├── src/           # Source files (.cpp)
+├── include/       # Header files (.h)
+├── project/       # Code::Blocks project files
+└── docs/          # Documentation and assets
+```
+
+## Features
 The program was built according to these specification:
 
 Descriptions : This app is used by patients and doctors. The data processed is consultation data between patients and doctors.
@@ -24,7 +34,37 @@ There are also some general specification for this project such as:
 The data structure that i used contains an M to N relations as follows:
 ![MLL](https://github.com/EkmalRey/ConsultationForum/assets/10165857/6c223336-7660-4220-8355-fc74b63e7658)
 
-Screenshots:
+## Building and Running
+
+### Quick Build (Windows)
+Run the multi-platform build script:
+```batch
+build.bat
+```
+This will create executables for Windows, Linux, and macOS in the `releases/` folder.
+
+### Manual Build
+To build manually for your current platform:
+
+**Windows:**
+```batch
+g++ -I include src/*.cpp -o ConsultationForum.exe -std=c++11
+```
+
+**Linux/macOS:**
+```bash
+g++ -I include src/*.cpp -o ConsultationForum -std=c++11
+```
+
+### Using Code::Blocks
+1. Open the Code::Blocks project file located in `project/TUBES.cbp`
+2. Build the project (F9 in Code::Blocks)
+3. Run the executable
+
+### GitHub Releases
+Pre-built binaries for Windows, Linux, and macOS are available in the [Releases](../../releases) section.
+
+## Screenshots:
 ![image](https://github.com/EkmalRey/ConsultationForum/assets/10165857/923e0344-6aad-422f-9546-5a925cfbd4c9)
 ![image](https://github.com/EkmalRey/ConsultationForum/assets/10165857/9be36639-2c47-4bcc-931e-7d8196ddcd45)
 ![image](https://github.com/EkmalRey/ConsultationForum/assets/10165857/042572d2-bddd-49d1-bcad-ba9eecb7e8be)
